@@ -1,0 +1,56 @@
+<!-- 
+    Name: Kevin Dang
+    Project Manager
+    
+    Last Modified: 10-26-2022
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Manager Home</title>
+
+        <link rel="stylesheet" href="./style/main.css">
+    </head>
+    <body>
+        <h1>Project Manager</h1>
+        <hr><br>
+        <!-- Begin Getting Projects -->
+        <div class="projects">
+            <form action="" method="POST">
+            <!-- When the user gets the  -->
+                <h2>Available Projects</h2>
+                <select name="projectDisplay" id="projectDisplay">
+                    <!-- dynamically add options here when adding projects -->
+                </select>
+                <input type="submit" value="Open Project">
+            </form>
+        </div>
+        <!-- End of Getting Projects -->
+        <!-- Begin Create Project -->
+        <div class="create">
+            <form action="" method="POST">
+                <h2>Create Project</h2>
+                <table>
+                    <tr>
+                        <tr>Project Name:</tr>
+                        <tr><input type="text"></tr>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <!-- End of Create Project -->
+        <!-- Begin Remove Project -->
+        <div class="remove">
+            <form action="" method="POST">
+                <h2>Remove Project</h2>
+                <select name="projectDisplay" id="projectDisplay">
+                    <!-- dynamically add options here when adding projects -->
+                </select>
+                <input type="submit" value="Remove Project">
+            </form>
+        </div>
+    </body>
+</html>
